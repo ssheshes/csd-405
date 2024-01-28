@@ -33,6 +33,7 @@ class AlexisArrayListTest {
             }
 
             // display user's list
+            System.out.println();
             System.out.print("Your ArrayList: ");
 
             for (int i = 0; i < myList_01.size(); ++i) {
@@ -43,6 +44,7 @@ class AlexisArrayListTest {
             // output largest element in list using the max method
             System.out.println("\nThe largest value in your ArrayList is " +
                     AlexisArrayListTest.max((ArrayList<Integer>) myList_01) + ".");
+            System.out.println();
         }
     }
 
