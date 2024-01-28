@@ -5,10 +5,9 @@
  */
 import java.util.*;
 
-public class yang_assignment4 {
+class AlexisArrayListTest {
 
     public static void main(String[] args) {
-
         // create ArrayList
         List<Integer> myList_01 = new ArrayList<Integer>();
 
@@ -43,13 +42,13 @@ public class yang_assignment4 {
 
             // output largest element in list using the max method
             System.out.println("\nThe largest value in your ArrayList is " +
-                    yang_assignment4.max((ArrayList<Integer>) myList_01) + ".");
+                    AlexisArrayListTest.max((ArrayList<Integer>) myList_01) + ".");
         }
     }
 
     // Class to find max value from GeeksForGeeks:
     // https://www.geeksforgeeks.org/finding-maximum-element-of-java-arraylist/
-    public static Integer max(ArrayList list) {
+    public static Integer max(ArrayList<Integer> list) {
 
         // initialize maximum as the first element in the list
         int maximum = (int) list.get(0);
